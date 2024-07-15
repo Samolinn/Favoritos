@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #151515;
+    color: #EEEEEE;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+}
+
+.cabecalho__navegacao{
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 5%;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    color: #7F27FF;
+}
+
+.cabecalho__navegacao:hover{
+    color: #9F70FD;
+}
+
+.conteudo__estudos{
+    display: flex;
+    margin: 6%;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo__estudos__titulo{
+    font-family: "Krona One", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #A91D3A;
+}
+
+.Conteudo__estudos__links{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.estudos__links_link{
+    display: flex;
+    font-size: 24px;
+    background-color: #A91D3A;
+    text-decoration: none;
+    justify-content: center;
+    border: 2px solid;
+    color: #EEEEEE;
+    padding: 16px 0;
+    width: 280px;
+    border-radius: 8px;
+}
+
+.estudos__links_link:hover{
+    background-color: #C73659;
+    border: 4px solid #EEEEEE;
+    color: green;
+}
